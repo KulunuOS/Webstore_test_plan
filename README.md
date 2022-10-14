@@ -1,7 +1,6 @@
 ### Test plan
 
-The repository contains a utility libr
-ary that is being used by the front-end of an E-commerce store application. A test plan is being prepared by considering wider aspects of testing. Specifically following questions are being addressed.
+The repository contains a utility library that is being used by the front-end of an E-commerce store application. A test plan is being prepared by considering wider aspects of testing. Specifically following questions are being addressed.
 
 - What functions of the utility library should be tested? and how are they tested?
 - Does it require integrating testing / interface testing, performance testing?
@@ -20,19 +19,19 @@ A total of 10 functions from the utility library has to be selected for testing.
 |castArray.js  |Converts `value` into an array if it's not one||
 |ceil.js       |Computes `number` rounded up to `precision`||
 |chunk.js	   |Creates an array of elements split into groups the length of given `size´||
-|*clamp.js	   |Clamps `number` within the inclusive `lower` and `upper` bounds| |
+|*clamp.js	   |Clamps `number` within the inclusive `lower` and `upper` bounds| selected |
 |compact.js    |Creates an array with all falsey values removed. The values `false`, `null`,* `0`, `""`,`undefined`, and `NaN` are falsey.||
-|countBy.js    |Creates an object composed of keys generated from the results of running each element of `collection` thru `iteratee`||
+|countBy.js    |Creates an object composed of keys generated from the results of running each element of `collection` thru `iteratee`| select |
 |*defaultTo.js |Checks `value` to determine whether a default value should be returned in its place.The `defaultValue` is returned if `value` is `NaN`, `null`, or `undefined`||
-|*defaultToAny.js|This method is like `defaultTo` except that it accepts multiple default values and returns the first one that is not `NaN`, `null`, or `undefined`||
+|*defaultToAny.js|This method is like `defaultTo` except that it accepts multiple default values and returns the first one that is not `NaN`, `null`, or `undefined`| |
 |difference.js |Creates an array of `array` values not included in the other given arrays||
 |divide.js     |Divide two numbers||
 |drop.js	   |Creates a slice of `array` with `n` elements dropped from the beginning ||
 |endsWith.js   |Checks if `string` ends with the given target string||
 |eq.js 		   |Comparison between two values to determine if they are equivalent||
 |every.js 	   |Checks if `predicate` returns truthy for **all** elements of `array`.||
-|*filter.js	   |Iterates over elements of `array`, returning an array of all elements * `predicate` returns truthy for.||
-|*get.js 	   |Gets the value at `path` of `object`. If the resolved value is * `undefined`, the`defaultValue` is returned in its place||
+|*filter.js	   |Iterates over elements of `array`, returning an array of all elements * `predicate` returns truthy for.| selected|
+|*get.js 	   |Gets the value at `path` of `object`. If the resolved value is * `undefined`, the`defaultValue` is returned in its place| select |
 |isArguments.js|Checks if `value` is likely an `arguments` object  ?????||
 |isArrayLike.js|Checks if `value` is array-like.
 |isArrayLikeObject.js|This method is like `isArrayLike` except that it also checks if `value` is an object ||
@@ -45,10 +44,10 @@ A total of 10 functions from the utility library has to be selected for testing.
 |isSymbol.js   |Checks if `value` is classified as a `Symbol` primitive or object||
 |isTypedArray.js|Checks if `value` is classified as a typed array.||
 |keys.js	   |Creates an array of the own enumerable property names of `object`||
-|*map.js 	   |Creates an array of values by running each element of `array` thru `iteratee`.|| 
+|*map.js 	   |Creates an array of values by running each element of `array` thru `iteratee`.| selected | 
 |memoize.js	   |Creates a function that memoizes the result of `func`||
 |reduce.js	   |Returns the accumulated value||
-|slice.js	   |Creates a slice of `array` from `start` up to, but not including, `end`||
+|slice.js	   |Creates a slice of `array` from `start` up to, but not including, `end`| selected |
 |toFinite.js   |Converts `value` to a finite number.||
 |toInteger.js  |Converts `value` to an integer||
 |toNumber.js   |Converts `value` to a number||
