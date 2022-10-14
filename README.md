@@ -21,17 +21,17 @@ A total of 10 functions from the utility library has to be selected for testing.
 |chunk.js	   |Creates an array of elements split into groups the length of given `size´||
 |*clamp.js	   |Clamps `number` within the inclusive `lower` and `upper` bounds| selected |
 |compact.js    |Creates an array with all falsey values removed. The values `false`, `null`,* `0`, `""`,`undefined`, and `NaN` are falsey.||
-|countBy.js    |Creates an object composed of keys generated from the results of running each element of `collection` thru `iteratee`| select |
+|countBy.js    |Creates an object composed of keys generated from the results of running each element of `collection` thru `iteratee`| selected |
 |*defaultTo.js |Checks `value` to determine whether a default value should be returned in its place.The `defaultValue` is returned if `value` is `NaN`, `null`, or `undefined`||
 |*defaultToAny.js|This method is like `defaultTo` except that it accepts multiple default values and returns the first one that is not `NaN`, `null`, or `undefined`| |
 |difference.js |Creates an array of `array` values not included in the other given arrays||
 |divide.js     |Divide two numbers||
 |drop.js	   |Creates a slice of `array` with `n` elements dropped from the beginning ||
-|endsWith.js   |Checks if `string` ends with the given target string||
+|endsWith.js   |Checks if `string` ends with the given target string| selected |
 |eq.js 		   |Comparison between two values to determine if they are equivalent||
-|every.js 	   |Checks if `predicate` returns truthy for **all** elements of `array`.||
+|every.js 	   |Checks if `predicate` returns truthy for **all** elements of `array`.| selected|
 |*filter.js	   |Iterates over elements of `array`, returning an array of all elements * `predicate` returns truthy for.| selected|
-|*get.js 	   |Gets the value at `path` of `object`. If the resolved value is * `undefined`, the`defaultValue` is returned in its place| select |
+|*get.js 	   |Gets the value at `path` of `object`. If the resolved value is * `undefined`, the`defaultValue` is returned in its place| selected |
 |isArguments.js|Checks if `value` is likely an `arguments` object  ?????||
 |isArrayLike.js|Checks if `value` is array-like.
 |isArrayLikeObject.js|This method is like `isArrayLike` except that it also checks if `value` is an object ||
@@ -51,6 +51,6 @@ A total of 10 functions from the utility library has to be selected for testing.
 |toFinite.js   |Converts `value` to a finite number.||
 |toInteger.js  |Converts `value` to an integer||
 |toNumber.js   |Converts `value` to a number||
-|toString.js   |Returns the converted string||
+|toString.js   |Returns the converted string| selected|
 |upperFirst.js |Converts the first character of `string` to upper case.||
-|words.js	   |Returns the words of `string` ||
+|words.js	   |Returns the words of `string` |selected |
