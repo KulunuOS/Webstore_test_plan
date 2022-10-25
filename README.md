@@ -95,12 +95,19 @@ Through analysing the application we concluded 3 end-to-end scenarios which are 
 
 - 2.1.2 Why do we test this scenario
 - 2.1.4 How to test test this
-- 2.1.5 Associated libraries, chosen libraries , prioritization method for selecting
+- 2.1.5 Associated libraries, chosen libraries
+
     1. endsWith.js
     2. every.js
     3. filter.js
     4. get.js
     5. slice.js
+
+- 2.1.6 Prioritization method for selecting
+
+    1. No dependencies on other libraries
+    2. Proper documentation
+    3. The complexity of the function
 
 ### Scenario 2
 
@@ -114,11 +121,18 @@ Through analysing the application we concluded 3 end-to-end scenarios which are 
 
 - 2.2.2 Why do we test this scenario
 - 2.2.4 How to test test this
-- 2.2.5 Associated libraries, chosen libraries , prioritization method for selecting
+- 2.2.5 Associated libraries, chosen libraries
+
     1. countBy.js
     2. toString.js
     3. words.js
     4. map.js
+
+- 2.2.6 Prioritization method for selecting
+
+    1. No dependencies on other libraries
+    2. Proper documentation
+    3. The complexity of the function
 
 ### Scenario 3
 
@@ -134,10 +148,17 @@ Through analysing the application we concluded 3 end-to-end scenarios which are 
 
 - 2.3.2 Why do we test this scenario
 - 2.3.4 How to test test this
-- 2.3.5 Associated libraries, chosen libraries , prioritization method for selecting
+- 2.3.5 Associated libraries, chosen libraries
+   
     1. clamp.js
     2. filter.js
     3. slice.js
+
+- 2.3.6 Prioritization method for selecting
+
+    1. No dependencies on other libraries
+    2. Proper documentation
+    3. The complexity of the function
 
 ---
 ## 3.Tools
