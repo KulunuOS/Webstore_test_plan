@@ -1,6 +1,25 @@
-### Test plan
+# Test Plan for E-Commerce store    
 
-The repository contains a utility library that is being used by the front-end of an E-commerce store application. A test plan is being prepared by considering wider aspects of testing. Specifically following questions are being addressed.
+Course  : COMP.SE.200-2022-2023-1 Software Testing
+Authors : Kulunu Samarawickrama & Sang Nguyen
+
+---
+## Table of contents
+
+1. Introduction
+2. Scenarios
+3. Tools
+4. Tests
+5. Definitions, acronyms and abbrevations
+6. References
+
+## 1.Introduction
+
+### The content and purpose of the test report
+
+This report contains a test plan for a web application. The application is an E-commerce store selling food products. The application consists a REST back-end and a Front end build with react. The test report only concerns the utility library that is being used by the front-end of the E-commerce store application. 
+
+The test plan is prepared by considering wider aspects of testing. Specifically following questions are being addressed.
 
 - What functions of the utility library should be tested? and how are they tested?
 - Does it require integrating testing / interface testing, performance testing?
@@ -9,6 +28,7 @@ The repository contains a utility library that is being used by the front-end of
 - A template for issue and bug reports
 
 A total of 10 functions from the utility library has to be selected for testing. The Following is a list of all the included function with a priority analysis.
+
 
 | The function | Description |  Priority|
 |--------------|-------------|----------|
@@ -54,3 +74,52 @@ A total of 10 functions from the utility library has to be selected for testing.
 |toString.js   |Returns the converted string| selected|
 |upperFirst.js |Converts the first character of `string` to upper case.||
 |words.js	   |Returns the words of `string` |selected |
+
+
+---
+## 2.Scenarios
+
+Through analysing the application we concluded 3 end-to-end scenarios which are essential to be tested as below
+
+### Scenario 1
+
+- 2.1.1 Explanation + UML/Diagram
+        1. User
+
+
+
+
+- 2.1.2 Why do we test this scenario
+- 2.1.4 How to test test this
+- 2.1.5 Associated libraries, chosen libraries , prioritization method for selecting
+
+### Scenario 2
+
+- 2.2.1 Explanation + UML/Diagram
+- 2.2.2 Why do we test this scenario
+- 2.2.4 How to test test this
+- 2.2.5 Associated libraries, chosen libraries , prioritization method for selecting
+
+### Scenario 3
+
+- 2.3.1 Explanation + UML/Diagram
+- 2.3.2 Why do we test this scenario
+- 2.3.4 How to test test this
+- 2.3.5 Associated libraries, chosen libraries , prioritization method for selecting
+
+---
+## 3.Tools
+- 3.1 Description of the selected testing tools
+- 3.2 Reasons for selecting above tools
+- 3.3 How tools are testing above end-to-end scenarios?
+
+---
+## 4.Tests
+
+
+---
+## 5.Definitions, acronyms and abbrevations
+
+
+---
+## 6.References
