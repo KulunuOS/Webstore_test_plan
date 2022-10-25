@@ -13,6 +13,7 @@ Authors : Kulunu Samarawickrama & Sang Nguyen
 5. Definitions, acronyms and abbrevations
 6. References
 
+---
 ## 1.Introduction
 
 ### The content and purpose of the test report
