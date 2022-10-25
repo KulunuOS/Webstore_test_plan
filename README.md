@@ -85,10 +85,13 @@ Through analysing the application we concluded 3 end-to-end scenarios which are 
 ### Scenario 1
 
 - 2.1.1 Explanation + UML/Diagram
-        1. User
 
-
-
+    1. User enters a search query as text search bar
+    2. Application process the input text and break down words / amount
+    3. Application proposes relevant results
+    4. User applies sorting and verifies
+    5. Search results should be updated
+    6. User selects and add the items to cart
 
 - 2.1.2 Why do we test this scenario
 - 2.1.4 How to test test this
@@ -97,6 +100,13 @@ Through analysing the application we concluded 3 end-to-end scenarios which are 
 ### Scenario 2
 
 - 2.2.1 Explanation + UML/Diagram
+
+    1. User preceeds to buy an item in the cart
+    2. application asks for details
+    3. User starts filling the data- Name/ address/ Contact
+    4. application checks formating of the data
+    5. checks for missing fields
+
 - 2.2.2 Why do we test this scenario
 - 2.2.4 How to test test this
 - 2.2.5 Associated libraries, chosen libraries , prioritization method for selecting
