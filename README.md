@@ -96,6 +96,11 @@ Through analysing the application we concluded 3 end-to-end scenarios which are 
 - 2.1.2 Why do we test this scenario
 - 2.1.4 How to test test this
 - 2.1.5 Associated libraries, chosen libraries , prioritization method for selecting
+    1. endsWith.js
+    2. every.js
+    3. filter.js
+    4. get.js
+    5. slice.js
 
 ### Scenario 2
 
@@ -110,13 +115,29 @@ Through analysing the application we concluded 3 end-to-end scenarios which are 
 - 2.2.2 Why do we test this scenario
 - 2.2.4 How to test test this
 - 2.2.5 Associated libraries, chosen libraries , prioritization method for selecting
+    1. countBy.js
+    2. toString.js
+    3. words.js
+    4. map.js
 
 ### Scenario 3
 
 - 2.3.1 Explanation + UML/Diagram
+
+    1. A Food producer logs in to portal
+    2. Search for the relevant category
+    3. Apllication presents the interface to enter item
+    4. Producer enters details about item
+    5. Application checks the details and store necessasities
+    6. Producer meets the requirements and submits
+    7. Application saves the data and sends necessary information to sales/producer via emails 
+
 - 2.3.2 Why do we test this scenario
 - 2.3.4 How to test test this
 - 2.3.5 Associated libraries, chosen libraries , prioritization method for selecting
+    1. clamp.js
+    2. filter.js
+    3. slice.js
 
 ---
 ## 3.Tools
