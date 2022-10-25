@@ -6,12 +6,12 @@ Authors : Kulunu Samarawickrama & Sang Nguyen
 ---
 ## Table of contents
 
-1. Introduction
-2. Scenarios
-3. Tools
-4. Tests
-5. Definitions, acronyms and abbrevations
-6. References
+1. [Introduction](https://github.com/KulunuOS/Webstore_test_plan#1introduction)
+2. [Scenarios](https://github.com/KulunuOS/Webstore_test_plan#scenario-1)
+3. [Tools](https://github.com/KulunuOS/Webstore_test_plan#3tools)
+4. [Tests](https://github.com/KulunuOS/Webstore_test_plan#4tests)
+5. [Definitions, acronyms and abbrevations](https://github.com/KulunuOS/Webstore_test_plan#5definitions-acronyms-and-abbrevations)
+6. [References](https://github.com/KulunuOS/Webstore_test_plan#6references)
 
 ---
 ## 1.Introduction
