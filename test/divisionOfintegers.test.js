@@ -14,7 +14,7 @@ describe("Integer Division", () => {
 })
 
 describe("Division by zero", () => {
-    it("devides positive integer by zero", () =>{
+    it("devides positive integer by zero ", () =>{
         expect(() => divisionOfIntegers(6,0)).to.throw(RangeError)
     });
    })
