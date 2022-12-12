@@ -22,5 +22,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
      
-      - run: npm install
-      - run: npm test
+      - run: npm install 
+      - run: npm make test-coverage
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
