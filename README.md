@@ -3,6 +3,8 @@
 Course  : COMP.SE.200-2022-2023-1 Software Testing
 Authors : Kulunu Samarawickrama & Sang Nguyen
 
+[![Build Status][ci-image]][ci-url] [![Coverage Status][coveralls-image]][coveralls-url]
+
 ---
 ## Table of contents
 
