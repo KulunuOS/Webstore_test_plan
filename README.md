@@ -11,7 +11,6 @@ Authors : Kulunu Samarawickrama & Sang Nguyen
 [coveralls-image]: https://coveralls.io/repos/nickmerwin/node-coveralls/badge.svg?branch=master&service=github
 [coveralls-url]: https://coveralls.io/github/KulunuOS/Webstore_test_plan
 
-
 ---
 ## Table of contents
 
