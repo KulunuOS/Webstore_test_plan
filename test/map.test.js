@@ -20,7 +20,7 @@ describe("map", () => {
 
     it("NaN input", () => {
         expect(map(NaN))
-            .to.be.eql([]);
+            .to.be.eql([undefined]);
     });
 
     it("null input", () => {
@@ -35,7 +35,7 @@ describe("map", () => {
 
     it("boolean input", () => {
         expect(map(false))
-            .to.be.eql([]);
+            .to.be.eql([undefined]);
     });
 
 });
