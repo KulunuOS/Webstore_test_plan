@@ -17,12 +17,9 @@
  */
 function clamp(number, lower, upper) {
   number = +number
-  console.log(lower)
   lower = +lower
-  console.log(lower)
   upper = +upper
   lower = lower === lower ? lower : 0
-  console.log(lower)
   upper = upper === upper ? upper : 0
   if (number === number) {
     number = number >= upper ? number : upper
