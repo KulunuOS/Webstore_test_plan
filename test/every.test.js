@@ -14,4 +14,8 @@ describe("every", () => {
         expect(every([1, 2, 3, 4], isPositive)).to.be.true
         expect(every([0, 1, 2, 3, 4], isPositive)).to.be.false
     });
+
+    it("calling every on custom predicate and empty array", () => {
+        expect(every([], isPositive)).to.be.false
+    });
 });
