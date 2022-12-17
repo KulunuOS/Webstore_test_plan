@@ -1,7 +1,5 @@
-var chai = require("chai")
-var map = require ("../src/map.js")
-
-const expect = chai.expect
+import {expect} from 'chai';
+import map from '../src/map.js';
 
 function square(n) {
      return n * n

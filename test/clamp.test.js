@@ -1,5 +1,5 @@
-const expect = require("chai").expect
-const clamp = require("../src/clamp.js");
+import {expect} from 'chai';
+import clamp from '../src/clamp.js';
 
 describe("clamp", () => {
     it("clamp a number mid range where bounds are both positive", () => {
