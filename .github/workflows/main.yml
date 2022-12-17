@@ -8,12 +8,12 @@ on:
 
 jobs:
   build:
-
+    title: "Building"
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [14, 15, 18]
+        node-version: [14]
 
     steps:
       - uses: actions/checkout@v3
@@ -23,9 +23,14 @@ jobs:
           node-version: ${{ matrix.node-version }}
      
       - run: npm install
-      - run: npm test
-
+  
+  coverage-report:
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  test:
+    title: "Testing"
+    steps:
+      - run: npm test
